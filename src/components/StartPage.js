@@ -78,7 +78,7 @@ function StartPage() {
             Promise.all([promise1, promise2]).then((values) => {
               getTravelTime(values[0], values[1])
               console.log(values)
-            })
+            });
         }
           }>
           Cast
